@@ -1,0 +1,7 @@
+https = "0.0.0.0:443"
+sni = "steamuserimages-a.akamaihd.net.edgesuite.net"
+cert = "/etc/steamp/steamcommunity.crt"
+key = "/etc/steamp/steamcommunity.key"
+backends = [
+    "steamuserimages-a.akamaihd.net.edgesuite.net:443"
+]
